@@ -6,12 +6,15 @@ import "./App.css"
 function App() {
 
   return (
-    <div className="container">
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      <MainBody />
+      <main className="flex-grow">
+        <MainBody />
+      </main>
       <Footer />
     </div>
   )
 }
+
 
 export default App
